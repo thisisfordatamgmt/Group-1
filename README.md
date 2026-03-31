@@ -1,5 +1,5 @@
 ## Data Dictionary
-# example 
+## example 
 
 | Column | Type | Description |
 |--------|------|-------------|
