@@ -1,31 +1,31 @@
 ## Table: Appointment_Statuses
-| Column Name | Data Type    | Description |
-|------------|-------------|-------------|
-| status     | VARCHAR(10) | Possible appointment statuses |
+| Column Name | Format  | Size | Key | Description |
+|------------|--------|------|-----|-------------|
+| status     | VARCHAR| 10   | PK  | Possible appointment statuses |
 
---- 
+---
 
 ## Table: Appointments
-| Column Name      | Data Type     | Description |
-|-----------------|--------------|-------------|
-| appointmentID   | INT          | Unique appointment ID |
-| appointmentDate | DATETIME     | Actual appointment date |
-| scheduledDate   | DATETIME     | Scheduled date |
-| concern         | VARCHAR(100) | Reason for visit |
-| appointmentStatus | VARCHAR(10)| Status of appointment |
-| patientID       | VARCHAR(6)   | References Patients |
+| Column Name        | Format   | Size  | Key | Description |
+|-------------------|----------|-------|-----|-------------|
+| appointmentID     | INT      | —     | PK  | Unique appointment ID |
+| appointmentDate   | DATETIME | —     |     | Actual appointment date |
+| scheduledDate     | DATETIME | —     |     | Scheduled date |
+| concern           | VARCHAR  | 100   |     | Reason for visit |
+| appointmentStatus | VARCHAR  | 10    | FK  | References Appointment_Statuses |
+| patientID         | VARCHAR  | 6     | FK  | References Patients |
 
---- 
+---
 
 ## Table: Billing
-| Column Name        | Data Type      | Description |
-|-------------------|---------------|-------------|
-| billingID         | INT           | Unique billing record |
-| amountOutstanding | DECIMAL(10,2) | Amount owed |
-| date              | DATETIME      | Billing date |
-| claimID           | INT           | Linked insurance claim |
-| encounterID       | INT           | Linked encounter |
-| amountPaid        | DECIMAL(10,2) | Amount paid |
+| Column Name        | Format   | Size  | Key | Description |
+|-------------------|----------|-------|-----|-------------|
+| billingID         | INT      | —     | PK  | Unique billing record |
+| amountOutstanding | DECIMAL  | 10,2  |     | Amount owed |
+| date              | DATETIME | —     |     | Billing date |
+| claimID           | INT      | —     | FK  | References Insurance_Claims |
+| encounterID       | INT      | —     | FK  | References Medical_Encounters |
+| amountPaid        | DECIMAL  | 10,2  |     | Amount paid |
 
 ---
 
