@@ -1,3 +1,10 @@
+## Table: Appointment_Statuses
+| Column Name | Data Type    | Description |
+|------------|-------------|-------------|
+| status     | VARCHAR(10) | Possible appointment statuses |
+
+--- 
+
 ## Table: Appointments
 | Column Name      | Data Type     | Description |
 |-----------------|--------------|-------------|
@@ -7,3 +14,6 @@
 | concern         | VARCHAR(100) | Reason for visit |
 | appointmentStatus | VARCHAR(10)| Status of appointment |
 | patientID       | VARCHAR(6)   | References Patients |
+
+--- 
+
