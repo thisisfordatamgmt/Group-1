@@ -8,23 +8,23 @@
 ## Table: Appointments
 | Column Name        | Data Type | Size | Format | Key | Description |
 |-------------------|----------|------|--------|-----|-------------|
-| appointmentID     | VARCHAR  | 6    | Text   | PK  | Unique appointment ID |
+| appointmentID     | VARCHAR  | 6    | APXXXX | PK  | Unique appointment ID |
 | appointmentDate   | DATETIME | —    | YYYY-MM-DD HH:MM:SS | —   | Actual appointment date |
 | scheduledDate     | DATETIME | —    | YYYY-MM-DD HH:MM:SS | —   | Scheduled date |
 | concern           | VARCHAR  | 100  | Text   | —   | Reason for visit |
 | appointmentStatus | VARCHAR  | 10   | Text   | FK  | References Appointment_Statuses |
-| patientID         | VARCHAR  | 6    | Text   | FK  | References Patients |
+| patientID         | VARCHAR  | 6    | PAXXXX | FK  | References Patients |
 
 ---
 
 ## Table: Billing
 | Column Name        | Data Type | Size | Format | Key | Description |
 |-------------------|----------|------|--------|-----|-------------|
-| billingID         | VARCHAR  | 6    | Text    | PK | Unique billing ID |
+| billingID         | VARCHAR  | 6    | BLXXXX | PK | Unique billing ID |
 | amountOutstanding | DECIMAL  | 10,2 | Numeric | —  | Amount owed |
 | date              | DATETIME | —    | YYYY-MM-DD HH:MM:SS | — | Billing date |
-| claimID           | VARCHAR  | 6    | Text    | FK | References Insurance_Claims |
-| encounterID       | VARCHAR  | 6    | Text    | FK | References Medical_Encounters |
+| claimID           | VARCHAR  | 6    | CLXXXX | FK | References Insurance_Claims |
+| encounterID       | VARCHAR  | 6    | ENXXXX  | FK | References Medical_Encounters |
 | amountPaid        | DECIMAL  | 10,2 | Numeric | —  | Amount paid |
 
 ---
@@ -39,16 +39,16 @@
 ## Table: Insurance_Claims
 | Column Name | Data Type | Size | Format | Key | Description |
 |------------|----------|------|--------|-----|-------------|
-| claimID    | VARCHAR  | 6    | Text   | PK  | Unique claim ID |
+| claimID    | VARCHAR  | 6    | CLXXXX | PK  | Unique claim ID |
 | notes      | VARCHAR  | 300  | Text   | —   | Claim notes |
-| providerID | VARCHAR  | 6    | Text   | FK  | References Insurance_Providers |
+| providerID | VARCHAR  | 6    | PROXXX | FK  | References Insurance_Providers |
 
 ---
 
 ## Table: Insurance_Providers
 | Column Name    | Data Type | Size | Format | Key | Description |
 |---------------|----------|------|--------|-----|-------------|
-| providerID    | VARCHAR  | 6    | Text   | PK  | Unique provider ID |
+| providerID    | VARCHAR  | 6    | PROXXX | PK  | Unique provider ID |
 | providerName  | VARCHAR  | 45   | Text   | —   | Provider name |
 | providerNotes | VARCHAR  | 45   | Text   | —   | Additional notes |
 
@@ -57,11 +57,11 @@
 ## Table: Medical_Encounters
 | Column Name      | Data Type | Size | Format | Key | Description |
 |-----------------|----------|------|--------|-----|-------------|
-| encounterID     | VARCHAR  | 6    | Text   | PK  | Unique encounter ID |
+| encounterID     | VARCHAR  | 6    | ENXXXX | PK  | Unique encounter ID |
 | encounterNotes  | VARCHAR  | 1000 | Text   | —   | Notes |
 | date            | DATETIME | —    | YYYY-MM-DD HH:MM:SS | — | Encounter date |
 | encounterStatus | VARCHAR  | 10   | Text   | FK  | References Encounter_Statuses |
-| appointmentID   | VARCHAR  | 6    | Text   | FK  | Linked appointment |
+| appointmentID   | VARCHAR  | 6    | APXXXX | FK  | Linked appointment |
 | physicianID     | VARCHAR  | 6    | Text   | FK  | References Physicians |
 
 ---
@@ -73,14 +73,14 @@
 | notes        | VARCHAR  | 1000 | Text    | —  | Medical notes |
 | dateAdded    | DATETIME | —    | YYYY-MM-DD HH:MM:SS | — | Record created |
 | dateModified | DATETIME | —    | YYYY-MM-DD HH:MM:SS | — | Last updated |
-| patientID    | VARCHAR  | 6    | Text    | FK | References Patients |
+| patientID    | VARCHAR  | 6    | PAXXXX    | FK | References Patients |
 
 ---
 
 ## Table: Medications
 | Column Name    | Data Type | Size | Format | Key | Description |
 |---------------|----------|------|--------|-----|-------------|
-| medicationID  | VARCHAR  | 6    | Text   | PK  | Unique medication ID |
+| medicationID  | VARCHAR  | 6    | MEDXXX | PK  | Unique medication ID |
 | medicationName| VARCHAR  | 45   | Text   | —   | Brand name |
 | genericName   | VARCHAR  | 45   | Text   | —   | Generic name |
 
@@ -89,7 +89,7 @@
 ## Table: Patients
 | Column Name     | Data Type | Size | Format | Key | Description |
 |----------------|----------|------|--------|-----|-------------|
-| patientID      | VARCHAR  | 6    | Text   | PK  | Unique patient ID |
+| patientID      | VARCHAR  | 6    | PAXXXX | PK  | Unique patient ID |
 | patientName    | VARCHAR  | 45   | Text   | —   | Full name |
 | patientPhone   | VARCHAR  | 15   | Text   | —   | Phone |
 | patientDOB     | DATETIME | —    | YYYY-MM-DD HH:MM:SS | — | Date of birth |
@@ -120,8 +120,8 @@
 ## Table: Prescriptions
 | Column Name             | Data Type | Size | Format | Key | Description |
 |------------------------|----------|------|--------|-----|-------------|
-| patientID              | VARCHAR  | 6    | Text   | FK  | References Patients |
-| medicationID           | VARCHAR  | 6    | Text   | FK  | References Medications |
+| patientID              | VARCHAR  | 6    | PAXXXX | FK  | References Patients |
+| medicationID           | VARCHAR  | 6    | MEDXXX | FK  | References Medications |
 | datePrescribed         | VARCHAR  | 45   | Text   | —   | Date prescribed |
 | encounterPrescribedIn  | VARCHAR  | 6    | Text   | FK  | References Medical_Encounters |
 | dosageAmount           | DECIMAL  | 10,3 | Numeric | —  | Dosage |
