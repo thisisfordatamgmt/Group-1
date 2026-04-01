@@ -62,7 +62,7 @@
 | date            | DATETIME | —    | YYYY-MM-DD HH:MM:SS | — | Encounter date |
 | encounterStatus | VARCHAR  | 10   |         | FK  | References Encounter_Statuses |
 | appointmentID   | VARCHAR  | 6    | APXXXX | FK  | Linked appointment |
-| physicianID     | VARCHAR  | 6    |       | FK  | References Physicians |
+| physicianID     | VARCHAR  | 6    | PHXXXX      | FK  | References Physicians |
 
 ---
 
@@ -103,7 +103,7 @@
 | Column Name | Data Type | Size | Format | Key | Description |
 |------------|----------|------|--------|-----|-------------|
 | specialtyID| INT      | —    | Integer| FK  | References Specialty |
-| physicianID| VARCHAR  | 6    |        | FK  | References Physicians |
+| physicianID| VARCHAR  | 6    | PHXXXX       | FK  | References Physicians |
 | dateAdded  | DATETIME | —    | YYYY-MM-DD HH:MM:SS | — | Date added |
 
 ---
@@ -111,7 +111,7 @@
 ## Table: Physicians
 | Column Name   | Data Type | Size | Format | Key | Description |
 |--------------|----------|------|--------|-----|-------------|
-| physicianID  | VARCHAR  | 6    |        | PK  | Unique physician ID |
+| physicianID  | VARCHAR  | 6    | PHXXXX | PK  | Unique physician ID |
 | physicianName| VARCHAR  | 45   |        | —   | Name |
 | startDate    | DATETIME | —    | YYYY-MM-DD HH:MM:SS | — | Start date |
 
