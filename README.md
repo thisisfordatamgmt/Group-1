@@ -6,7 +6,7 @@ Sp26_71552_Group 1
 
 ## Team Members
 
-- Grace Buckley
+- Grace Buckley 
 - Jerry Chen
 - Sanjana Karanth
 - Sam Lashley
