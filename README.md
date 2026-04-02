@@ -13,6 +13,12 @@ Sp26_71552_Group 1
 - Sai Shankar Sadhu
 - Anaya Stinson
 
+# Data Model
+
+## Explanation:
+
+---
+<img width="1200" height="850" alt="Group Project Diagram" src="https://github.com/user-attachments/assets/33eaf972-5ffb-483b-a924-b808a5e39403" />
 
 # Data Dictionary
 
