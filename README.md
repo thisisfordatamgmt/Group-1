@@ -138,6 +138,10 @@
 
 # Queries
 
+## Matrix
+
+<img width="924" height="614" alt="Screenshot 2026-04-02 at 8 45 15 AM" src="https://github.com/user-attachments/assets/7330e486-86c8-4517-a00e-c18646e94715" />
+
 ## Query 1
 
 ### Explanation:
