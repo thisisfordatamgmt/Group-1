@@ -229,7 +229,7 @@ This following query retrieves all of the insurance providers that we as a clini
 ## Query 5
 
 ### Description:
-Identify customers who have an amountOutstanding and what amt
+Identify customers who have an outstanding balance in billing and the respective amounts
 
 <img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 29 06 AM" src="https://github.com/user-attachments/assets/618632c5-d629-4130-a3ac-cf17dc166ad3" />
 
@@ -259,7 +259,7 @@ This query will return the percentage of medications prescribed out of all presc
 ## Query 8
 
 ### Description:
-Distinct Patients
+List out all physicians and the distinct number of patients they have seen.
 
 <img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 30 18 AM" src="https://github.com/user-attachments/assets/d5b2df4e-d9af-4749-be03-13ebc1013940" />
 
@@ -270,22 +270,22 @@ This query is useful when identifying patients’ preference over a specific phy
 ## Query 9
 
 ### Description:
-Find all the bills that have not yet had an insurance claim created for it
+Find all the bills that have not yet had an insurance claim created for it.
 
 <img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 31 17 AM" src="https://github.com/user-attachments/assets/a256ff96-4001-4d0c-a663-5a0154918f73" />
 
 ### Justification
-This query will retrieve information about all of the bills that have not yet had an insurance claim created for them yet. The query will also format the date of the medical encounter in a better way (Month/Day/Year) and also rename the amountOutstanding and amountPaid columns for better readability. The following information retrieved by this query can be found useful from a managerial perspective because almost all bills should have an insurance claim associated with them and if there is not there is likely a discrepancy in the data insertion process by the clinic. This can cause issues with the clinic’s patients and their insurance providers later on because in order for an insurance provider to cover a medical encounter of their customer, an insurance claim must be attached to each encounter. If the clinic can streamline and regulate this process by checking up on the status of the bills that do not yet have an insurance claim and attend to them as soon as possible, the clinic can build a better relationship with its patients and maintain customer satisfaction. 
+This query will retrieve information about all of the bills that have not yet had an insurance claim created for them yet. The query will also format the date of the medical encounter in a better way (Month/Day/Year) and also rename the amountOutstanding and amountPaid columns for better readability. The following information retrieved by this query can be found useful from a managerial perspective because almost all bills should eventually have an insurance claim associated with them and if there is not the associated encounter cannot be closed until a claim is filed. Unfiled bills can cause issues with the clinic’s patients and their insurance providers later on because in order for an insurance provider to cover a medical encounter of their customer, an insurance claim must be attached to each bill. If the clinic can streamline and regulate this process by checking up on the status of the bills that do not yet have an insurance claim and attend to them promptly, the clinic can build a better relationship with its patients and maintain customer satisfaction. 
 
 ## Query 10
 
 ### Description:
-Classify the amount outstanding for each patient with an outstanding amount as “Little amount due”, “Moderate Amount Due”, “High Amount Due”, or “Needs Attention” if greater
+This case when a statement query will sort out and label the different types of patients with different situations regarding their amounts outstanding. If a patient has an amount outstanding of less than or equal to $1,000, he/she is classified as having “Little Amount Due,” if the amount is less than or equal to $5,000, “Moderate Amount Due”, if the amount is less than or equal to $10,000 then “High Amount Due.” Patients with anything greater than $10,000 are classified as “Needs attention.”
 
 <img width="1511" height="574" alt="Screenshot 2026-04-02 at 8 33 16 AM" src="https://github.com/user-attachments/assets/c63764fc-ce98-48dc-add4-613d79c25127" />
 
 ### Justification:
-This case when a statement query will sort out and label the different types of patients with different situations regarding their amounts outstanding. This is highly valuable information to management because management will be able to better classify their patients by arranging them in different groups based on this query. If a patient has an amount outstanding of less than or equal to $1,000, he/she is classified as having “Little Amount Due,” if the amount is less than or equal to 500, “Moderate Amount Due”, if the amount is less than or equal to $10,000 then “High Amount Due.” All other patients are classified as “Needs attention.” This detailed classification will make things easier for management by giving them specific areas to keep an eye out for. For example, management wants to keep “Needs attention” patients and patients classified as anything other than “Little Amount Due” under their radar because those are the patients that are most alarming in the database, and management wants to reduce those cases as much as possible to make sure they are up to date on their accounts payable account. The following analysis that’s given from this query can also be helpful when the clinic calculates its bad debt expense for financial reporting purposes.
+The classification of accounts is highly valuable information to management because they will be able to better classify their patients by segmenting them based on the aforementioned classifications. This information specifically will make things easier for management by giving them specific areas to keep an eye out for. For example, management would want to keep patients classified as anything other than “Little Amount Due” on their radar because those are the patients that are most alarming in reference to their outstanding bills. Management would seek to reduce those cases as much as possible to make sure they are up to date in their accounts receivables. Furthermore, in future analysis of the data, one could assign probabilities to each designation in order to provide an estimate of bad debt expense at the end of the term.
 
 # Database Information:
 Name of the database: `ns_Sp26_71552_Group1`
