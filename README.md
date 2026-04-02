@@ -183,6 +183,7 @@ On the billing and insurance side of the model, each medical encounter can gener
 ## Query 1
 
 ### Description: 
+Query to retrieve a patient's contact info given their ID number. Important for follow up reviews after an appointment encounter
 
 
 <img width="1511" height="536" alt="Screenshot 2026-04-02 at 8 26 26 AM" src="https://github.com/user-attachments/assets/ccc7eff3-40a9-4f8f-bd5c-dfd34b5bbbd9" />
