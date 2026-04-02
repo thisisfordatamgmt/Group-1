@@ -236,10 +236,12 @@ This query will return back the patient’s name and ID along with their contact
 ## Query 6
 
 ### Description:
+List out all physicians with their total amount billed and their average billing
 
 <img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 29 37 AM" src="https://github.com/user-attachments/assets/3f59bf6b-6952-4edc-ac6e-014b1a835916" />
 
 ### Justification
+This query will return the physician name, the total amount that they have billed a patient as well as the average amount they typically bill a customer. At this clinic, management wants to ensure impartiality and always being fair to our patients. Our goal is to not overcharge our clients for the services we provide and risk getting bad reviews, so it’s important that management has access to this information returned in this query to keep a check on the physician’s actions regarding the amounts that they are billing their patients. If there is a large discrepancy between the average billing amount and the specific billed amount, then that  may suggest that management has to conduct further investigation to maintain regulation and balance in the clinic. This practice will lead to increased customer satisfaction rates and a more attentive and regulated workplace environment.
 
 ## Query 7
 
