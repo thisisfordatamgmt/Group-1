@@ -144,7 +144,7 @@
 
 ## Query 1
 
-### Explanation:
+### Description:
 
 <img width="1511" height="536" alt="Screenshot 2026-04-02 at 8 26 26 AM" src="https://github.com/user-attachments/assets/ccc7eff3-40a9-4f8f-bd5c-dfd34b5bbbd9" />
 
@@ -152,7 +152,7 @@
 
 ## Query 2
 
-### Explanation:
+### Description:
 
 <img width="1511" height="536" alt="Screenshot 2026-04-02 at 8 27 00 AM" src="https://github.com/user-attachments/assets/d7463d3b-007c-4493-8a69-974b816531ce" />
 
@@ -160,7 +160,7 @@
 
 ## Query 3
 
-### Explanation:
+### Description:
 
 <img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 28 06 AM" src="https://github.com/user-attachments/assets/1e007e40-09d7-4c39-bf4a-db82254efab0" />
 
@@ -168,7 +168,7 @@
 
 ## Query 4
 
-### Explanation:
+### Description:
 
 <img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 28 40 AM" src="https://github.com/user-attachments/assets/fd352bf7-c2cb-484d-9f30-809f6c25a35f" />
 
@@ -176,7 +176,7 @@
 
 ## Query 5
 
-### Explanation:
+### Description:
 
 <img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 29 06 AM" src="https://github.com/user-attachments/assets/618632c5-d629-4130-a3ac-cf17dc166ad3" />
 
@@ -184,7 +184,7 @@
 
 ## Query 6
 
-### Explanation:
+### Description:
 
 <img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 29 37 AM" src="https://github.com/user-attachments/assets/3f59bf6b-6952-4edc-ac6e-014b1a835916" />
 
@@ -192,7 +192,7 @@
 
 ## Query 7
 
-### Explanation:
+### Description:
 
 <img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 29 55 AM" src="https://github.com/user-attachments/assets/3a787fcc-4b85-4c8d-803c-a53ce33bfc76" />
 
@@ -200,7 +200,7 @@
 
 ## Query 8
 
-### Explanation:
+### Description:
 
 <img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 30 18 AM" src="https://github.com/user-attachments/assets/d5b2df4e-d9af-4749-be03-13ebc1013940" />
 
@@ -208,7 +208,7 @@
 
 ## Query 9
 
-### Explanation:
+### Description:
 
 <img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 31 17 AM" src="https://github.com/user-attachments/assets/a256ff96-4001-4d0c-a663-5a0154918f73" />
 
@@ -216,7 +216,7 @@
 
 ## Query 10
 
-### Explanation:
+### Description:
 
 <img width="1511" height="574" alt="Screenshot 2026-04-02 at 8 33 16 AM" src="https://github.com/user-attachments/assets/c63764fc-ce98-48dc-add4-613d79c25127" />
 
