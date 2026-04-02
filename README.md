@@ -210,6 +210,7 @@ The following query retrieves the patient’s name, the status of their encounte
 ## Query 4
 
 ### Description:
+This following query retrieves all of the insurance providers that we as a clinic will accept and do business with. This is highly important information because the clinic needs to have reference of all of the various types of providers that are accepted so that if someone has an inquiry on whether or not the clinic accepts a certain provider, the manager or staff can look from the list of providers and check. This information is also helpful in a sense that management can look to expand its list of insurance providers to be more accommodating to all sorts of patients and attract new patients to the clinic if management finds that very little variety of insurance providers exist in the database.
 
 <img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 28 40 AM" src="https://github.com/user-attachments/assets/fd352bf7-c2cb-484d-9f30-809f6c25a35f" />
 
