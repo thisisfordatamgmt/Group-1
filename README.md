@@ -186,8 +186,7 @@ On the billing and insurance side of the model, each medical encounter can gener
 ## Query 1
 
 ### Description: 
-Query to retrieve a patient's contact info given their ID number. Important for follow up reviews after an appointment encounter
-
+Query to retrieve a patient's contact info given their ID number. 
 
 <img width="1511" height="536" alt="Screenshot 2026-04-02 at 8 26 26 AM" src="https://github.com/user-attachments/assets/ccc7eff3-40a9-4f8f-bd5c-dfd34b5bbbd9" />
 
@@ -197,24 +196,23 @@ The following query retrieves the contact information for patients in our databa
 ## Query 2
 
 ### Description:
-DATEDIFF
+This query provides on average how long it takes from the date of the medical encounter for the patient to be billed for the services provided.
 
 
 <img width="1511" height="536" alt="Screenshot 2026-04-02 at 8 27 00 AM" src="https://github.com/user-attachments/assets/d7463d3b-007c-4493-8a69-974b816531ce" />
 
 ### Justification:
-The following query will give information about the average difference in days from a medical encounter being issued to when it gets paid by a patient. Basically, on average, how long does it take for customers to pay for their medical encounter. It’s every clinic’s goal to make sure this average difference is as low as possible so by generating this query in certain periods of time, management can track if the average difference has gone up or down, and make necessary improvements or changes (more follow up calls, emails, etc.) in order to maintain a decent average difference to maintain a good clinic setting and reputation.
+This query provides information about the average number of days from a medical encounter to when the patient is billed for the services provided. This is a vital metric for telehealth clinics as minimizing the amount of time between when physicians render services and patients are billed lessens the time it takes to collect on accounts. Maintaining a reasonable average here is crucial to profitability as any delays could result in high revenue losses.
 
 ## Query 3
 
 ### Description:
-Get patient name, status of the encounter, and the name of the physician
+Query provides the encounter ID, encounter date, patient name, status of the encounter, and the name of the physician
 
-
-<img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 28 06 AM" src="https://github.com/user-attachments/assets/1e007e40-09d7-4c39-bf4a-db82254efab0" />
+<img width="1512" height="611" alt="Screenshot 2026-04-02 at 11 29 43 AM" src="https://github.com/user-attachments/assets/c21abb98-c2ca-43b4-8721-6f6c7ae08de4" />
 
 ### Justification:
-The following query retrieves the patient’s name, the status of their encounter and the name of the physician that treated them. From a managerial standpoint, the clinic’s manager is in charge of managing the physicians and staff and making sure everything runs smoothly, so the manager should be aware of any encounter that is not yet closed, and they should also know the physician that is assigned that encounter, so they can follow up with the physician and make sure that they are in the process of closing that encounter. This query does a great job by giving the manager a general run down of the physician’s activity and workload regarding their patient’s appointments in the clinic.
+The following query retrieves the encounter's ID, encounter's date, patient’s name, the status of their encounter and the name of the physician that treated them. From a managerial standpoint, the clinic’s manager is in charge of managing the physicians and staff and making sure everything runs smoothly, so the manager should be aware of any encounter that is not yet closed, and they should also know the physician that is assigned that encounter, so they can follow up with the physician and make sure that they are in the process of closing that encounter. This query does a great job by giving the manager a general run down of the physician’s activity and workload regarding their patient’s appointments in the clinic.
 
 ## Query 4
 
@@ -234,7 +232,7 @@ Identify customers who have an outstanding balance in billing and the respective
 <img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 29 06 AM" src="https://github.com/user-attachments/assets/618632c5-d629-4130-a3ac-cf17dc166ad3" />
 
 ### Justification:
-This query will return back the patient’s name and ID along with their contact information and their outstanding balances. This is a highly important query that is very useful in the financial aspect of the clinic because the clinic needs to be aware of its accounts payable account, and make sure they are up to date regarding their financial information. The clinic needs to be able to contact certain patients who have still not paid yet, and the clinic needs to do that ASAP so that the patient and the clinic can be up-to-date on the situation and the clinic would have done its part by informing the patient before they would be subject to any unnecessary additional fees that come with penalties for not paying the amount on time. 
+This query will return back the patient’s name and ID along with their contact information and their outstanding balances. This is a highly important query that is very useful in the financial aspect of the clinic because the clinic needs to be aware of its accounts receivables, and make sure they are up to date regarding their financial information. The clinic needs to be able to contact certain patients who have still not paid yet, and the clinic needs to do that quickly so that the patient and the clinic can be up-to-date on the situation and the clinic would have done its part by informing the patient before they would be subject to any unnecessary additional fees or collections that come with penalties for not paying the balance on time. 
 
 ## Query 6
 
@@ -249,7 +247,7 @@ This query will return the physician name, the total amount that they have bille
 ## Query 7
 
 ### Description:
-List out the percent of Medications Prescribed out of all Prescriptions for Physicians who have prescribed anything in a medical encounter
+Query provides the percent of medications prescribed out of all prescriptions for physicians who have prescribed anything in a medical encounter
 
 <img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 29 55 AM" src="https://github.com/user-attachments/assets/3a787fcc-4b85-4c8d-803c-a53ce33bfc76" />
 
@@ -259,7 +257,7 @@ This query will return the percentage of medications prescribed out of all presc
 ## Query 8
 
 ### Description:
-List out all physicians and the distinct number of patients they have seen.
+Query provides all physicians and the distinct number of patients they have seen.
 
 <img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 30 18 AM" src="https://github.com/user-attachments/assets/d5b2df4e-d9af-4749-be03-13ebc1013940" />
 
@@ -270,12 +268,12 @@ This query is useful when identifying patients’ preference over a specific phy
 ## Query 9
 
 ### Description:
-Find all the bills that have not yet had an insurance claim created for it.
+Find all the bills that have not yet had an insurance claim created for it. This query will retrieve information about all of the bills that have not yet had an insurance claim created for them yet. The query will also format the date of the medical encounter in a better way (Month/Day/Year) and also rename the amountOutstanding and amountPaid columns for better readability.
 
 <img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 31 17 AM" src="https://github.com/user-attachments/assets/a256ff96-4001-4d0c-a663-5a0154918f73" />
 
 ### Justification
-This query will retrieve information about all of the bills that have not yet had an insurance claim created for them yet. The query will also format the date of the medical encounter in a better way (Month/Day/Year) and also rename the amountOutstanding and amountPaid columns for better readability. The following information retrieved by this query can be found useful from a managerial perspective because almost all bills should eventually have an insurance claim associated with them and if there is not the associated encounter cannot be closed until a claim is filed. Unfiled bills can cause issues with the clinic’s patients and their insurance providers later on because in order for an insurance provider to cover a medical encounter of their customer, an insurance claim must be attached to each bill. If the clinic can streamline and regulate this process by checking up on the status of the bills that do not yet have an insurance claim and attend to them promptly, the clinic can build a better relationship with its patients and maintain customer satisfaction. 
+The information retrieved by this query can be found useful from a managerial perspective because almost all bills should eventually have an insurance claim associated with them and if there is not the associated encounter cannot be closed until a claim is filed. Unfiled bills can cause issues with the clinic’s patients and their insurance providers later on because in order for an insurance provider to cover a medical encounter of their customer, an insurance claim must be attached to each bill. If the clinic can streamline and regulate this process by checking up on the status of the bills that do not yet have an insurance claim and attend to them promptly, the clinic can build a better relationship with its patients and maintain customer satisfaction. 
 
 ## Query 10
 
