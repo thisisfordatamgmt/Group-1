@@ -205,6 +205,8 @@ The following query will give information about the average difference in days f
 ## Query 3
 
 ### Description:
+Get patient name, status of the encounter, and the name of the physician
+
 
 <img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 28 06 AM" src="https://github.com/user-attachments/assets/1e007e40-09d7-4c39-bf4a-db82254efab0" />
 
