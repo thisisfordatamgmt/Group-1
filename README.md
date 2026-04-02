@@ -183,46 +183,51 @@ On the billing and insurance side of the model, each medical encounter can gener
 ## Query 1
 
 ### Description: 
-The following query retrieves the contact information for patients in our database, which is necessary for sending confirmation messages regarding appointments and other details we, as a clinic, would like to send to our patients outside their appointment time. This query is very valuable to a manager because every clinic must maintain a proper record of all of the contact information of their clients, in fact it is a rule because without proper contact information, patients are not given updates about their appointment times or dates which could cause them to miss their appointment and therefore leave them dissatisfied by having to pay a late fee. When a manager runs this query, no null values should be present; if there are, it signals the clinic to enter data in that row or instance immediately to ensure proper communication.
+
 
 <img width="1511" height="536" alt="Screenshot 2026-04-02 at 8 26 26 AM" src="https://github.com/user-attachments/assets/ccc7eff3-40a9-4f8f-bd5c-dfd34b5bbbd9" />
 
 ### Justification: 
+The following query retrieves the contact information for patients in our database, which is necessary for sending confirmation messages regarding appointments and other details we, as a clinic, would like to send to our patients outside their appointment time. This query is very valuable to a manager because every clinic must maintain a proper record of all of the contact information of their clients, in fact it is a rule because without proper contact information, patients are not given updates about their appointment times or dates which could cause them to miss their appointment and therefore leave them dissatisfied by having to pay a late fee. When a manager runs this query, no null values should be present; if there are, it signals the clinic to enter data in that row or instance immediately to ensure proper communication.
 
 ## Query 2
 
 ### Description:
-The following query will give information about the average difference in days from a medical encounter being issued to when it gets paid by a patient. Basically, on average, how long does it take for customers to pay for their medical encounter. It’s every clinic’s goal to make sure this average difference is as low as possible so by generating this query in certain periods of time, management can track if the average difference has gone up or down, and make necessary improvements or changes (more follow up calls, emails, etc.) in order to maintain a decent average difference to maintain a good clinic setting and reputation.
+
 
 <img width="1511" height="536" alt="Screenshot 2026-04-02 at 8 27 00 AM" src="https://github.com/user-attachments/assets/d7463d3b-007c-4493-8a69-974b816531ce" />
 
 ### Justification:
+The following query will give information about the average difference in days from a medical encounter being issued to when it gets paid by a patient. Basically, on average, how long does it take for customers to pay for their medical encounter. It’s every clinic’s goal to make sure this average difference is as low as possible so by generating this query in certain periods of time, management can track if the average difference has gone up or down, and make necessary improvements or changes (more follow up calls, emails, etc.) in order to maintain a decent average difference to maintain a good clinic setting and reputation.
 
 ## Query 3
 
 ### Description:
-The following query retrieves the patient’s name, the status of their encounter and the name of the physician that treated them. From a managerial standpoint, the clinic’s manager is in charge of managing the physicians and staff and making sure everything runs smoothly, so the manager should be aware of any encounter that is not yet closed, and they should also know the physician that is assigned that encounter, so they can follow up with the physician and make sure that they are in the process of closing that encounter. This query does a great job by giving the manager a general run down of the physician’s activity and workload regarding their patient’s appointments in the clinic.
 
 <img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 28 06 AM" src="https://github.com/user-attachments/assets/1e007e40-09d7-4c39-bf4a-db82254efab0" />
 
 ### Justification:
+The following query retrieves the patient’s name, the status of their encounter and the name of the physician that treated them. From a managerial standpoint, the clinic’s manager is in charge of managing the physicians and staff and making sure everything runs smoothly, so the manager should be aware of any encounter that is not yet closed, and they should also know the physician that is assigned that encounter, so they can follow up with the physician and make sure that they are in the process of closing that encounter. This query does a great job by giving the manager a general run down of the physician’s activity and workload regarding their patient’s appointments in the clinic.
 
 ## Query 4
 
 ### Description:
-This following query retrieves all of the insurance providers that we as a clinic will accept and do business with. This is highly important information because the clinic needs to have reference of all of the various types of providers that are accepted so that if someone has an inquiry on whether or not the clinic accepts a certain provider, the manager or staff can look from the list of providers and check. This information is also helpful in a sense that management can look to expand its list of insurance providers to be more accommodating to all sorts of patients and attract new patients to the clinic if management finds that very little variety of insurance providers exist in the database.
+
 
 <img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 28 40 AM" src="https://github.com/user-attachments/assets/fd352bf7-c2cb-484d-9f30-809f6c25a35f" />
 
 ### Justification:
+This following query retrieves all of the insurance providers that we as a clinic will accept and do business with. This is highly important information because the clinic needs to have reference of all of the various types of providers that are accepted so that if someone has an inquiry on whether or not the clinic accepts a certain provider, the manager or staff can look from the list of providers and check. This information is also helpful in a sense that management can look to expand its list of insurance providers to be more accommodating to all sorts of patients and attract new patients to the clinic if management finds that very little variety of insurance providers exist in the database.
 
 ## Query 5
 
 ### Description:
 
+
 <img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 29 06 AM" src="https://github.com/user-attachments/assets/618632c5-d629-4130-a3ac-cf17dc166ad3" />
 
 ### Justification:
+This query will return back the patient’s name and ID along with their contact information and their outstanding balances This is a highly important query that is very useful in the financial aspect of the clinic because the clinic needs to be aware of its accounts payable account, and make sure they are up to date regarding their financial information. The clinic needs to be able to contact certain patients who have still not paid yet, and the clinic needs to do that ASAP so that the patient and the clinic can be up-to-date on the situation and the clinic would have done its part by informing the patient before they would be subject to any unnecessary additional fees that come with penalties for not paying the amount on time. 
 
 ## Query 6
 
