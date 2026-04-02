@@ -1,3 +1,21 @@
+# MIST 4610 Team 1
+
+## Team Name
+
+Sp26_71552_Group 1
+
+## Team Members
+
+- Grace Buckley
+- Jerry Chen
+- Sanjana Karanth
+- Sam Lashley @samlashley
+- Sai Shankar Sadhu
+- Anaya Stinson
+
+
+# Data Dictionary
+
 ## Table: Appointment_Statuses
 | Column Name | Data Type | Size | Format | Key | Description |
 |------------|----------|------|--------|-----|-------------|
