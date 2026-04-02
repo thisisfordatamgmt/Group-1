@@ -237,7 +237,7 @@ This query will return back the patient’s name and ID along with their contact
 ## Query 6
 
 ### Description:
-List out all physicians with their total amount billed and their average billing
+Query lists out all of the physicians with their total amount billed and their average billing
 
 <img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 29 37 AM" src="https://github.com/user-attachments/assets/3f59bf6b-6952-4edc-ac6e-014b1a835916" />
 
