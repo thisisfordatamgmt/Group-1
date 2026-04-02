@@ -280,9 +280,10 @@ This query will retrieve information about all of the bills that have not yet ha
 ## Query 10
 
 ### Description:
+Classify the amount outstanding for each patient with an outstanding amount as “Little amount due”, “Moderate Amount Due”, “High Amount Due”, or “Needs Attention” if greater
 
 <img width="1511" height="574" alt="Screenshot 2026-04-02 at 8 33 16 AM" src="https://github.com/user-attachments/assets/c63764fc-ce98-48dc-add4-613d79c25127" />
 
 ### Justification:
-
+This case when a statement query will sort out and label the different types of patients with different situations regarding their amounts outstanding. This is highly valuable information to management because management will be able to better classify their patients by arranging them in different groups based on this query. If a patient has an amount outstanding of less than or equal to $1,000, he/she is classified as having “Little Amount Due,” if the amount is less than or equal to 500, “Moderate Amount Due”, if the amount is less than or equal to $10,000 then “High Amount Due.” All other patients are classified as “Needs attention.” This detailed classification will make things easier for management by giving them specific areas to keep an eye out for. For example, management wants to keep “Needs attention” patients and patients classified as anything other than “Little Amount Due” under their radar because those are the patients that are most alarming in the database, and management wants to reduce those cases as much as possible to make sure they are up to date on their accounts payable account. The following analysis that’s given from this query can also be helpful when the clinic calculates its bad debt expense for financial reporting purposes.
 
