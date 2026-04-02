@@ -270,10 +270,12 @@ This query is useful when identifying patients’ preference over a specific phy
 ## Query 9
 
 ### Description:
+Find all the bills that have not yet had an insurance claim created for it
 
 <img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 31 17 AM" src="https://github.com/user-attachments/assets/a256ff96-4001-4d0c-a663-5a0154918f73" />
 
 ### Justification
+This query will retrieve information about all of the bills that have not yet had an insurance claim created for them yet. The query will also format the date of the medical encounter in a better way (Month/Day/Year) and also rename the amountOutstanding and amountPaid columns for better readability. The following information retrieved by this query can be found useful from a managerial perspective because almost all bills should have an insurance claim associated with them and if there is not there is likely a discrepancy in the data insertion process by the clinic. This can cause issues with the clinic’s patients and their insurance providers later on because in order for an insurance provider to cover a medical encounter of their customer, an insurance claim must be attached to each encounter. If the clinic can streamline and regulate this process by checking up on the status of the bills that do not yet have an insurance claim and attend to them as soon as possible, the clinic can build a better relationship with its patients and maintain customer satisfaction. 
 
 ## Query 10
 
