@@ -288,4 +288,4 @@ The classification of accounts is highly valuable information to management beca
 # Database Information:
 Name of the database: `ns_Sp26_71552_Group1`
 
-Additional information: Each query listed above is marked in the database using stored procedures which can be called using the following format: CALL TP_Q1();
+Additional information: Each query listed above is marked in the database using stored procedures which can be called using the following format: CALL TP_Qx;
