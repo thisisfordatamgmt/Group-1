@@ -9,7 +9,7 @@ Sp26_71552_Group 1
 - Grace Buckley
 - Jerry Chen
 - Sanjana Karanth
-- Sam Lashley @samlashley
+- Sam Lashley
 - Sai Shankar Sadhu
 - Anaya Stinson
 
