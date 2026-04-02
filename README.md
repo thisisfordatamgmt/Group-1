@@ -246,10 +246,12 @@ This query will return the physician name, the total amount that they have bille
 ## Query 7
 
 ### Description:
+List out the percent of Medications Prescribed out of all Prescriptions for Physicians who have prescribed anything in a medical encounter
 
 <img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 29 55 AM" src="https://github.com/user-attachments/assets/3a787fcc-4b85-4c8d-803c-a53ce33bfc76" />
 
 ### Justification:
+This query will return the percentage of medications prescribed out of all prescriptions for physicians who have prescribed anything in a medical encounter. The results are grouped by each physician, so management is aware of what percentage of the total prescriptions relates to a certain physician. Recently, many debates and concerns are being raised about healthcare in the U.S. Many believe that U.S physicians are overprescribing their patients with medications that they may not actually need. Studies have shown that 20-25% of medications prescribed have been deemed unnecessary. The clinic wants to avoid any legal or moral issue, so it’s important that management is aware of what is going on at the clinic, and this way they are able to keep a look out for any physician who might be contributing to the majority of total prescriptions issued from the clinic. Management will then have to oversee that physician’s work and actions to ensure checks and regulations in the clinic.
 
 ## Query 8
 
