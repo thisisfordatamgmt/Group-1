@@ -226,7 +226,7 @@ This following query retrieves all of the insurance providers that we as a clini
 ## Query 5
 
 ### Description:
-
+Identify customers who have an amountOutstanding and what amt
 
 <img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 29 06 AM" src="https://github.com/user-attachments/assets/618632c5-d629-4130-a3ac-cf17dc166ad3" />
 
