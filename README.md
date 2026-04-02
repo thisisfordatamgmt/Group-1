@@ -192,6 +192,7 @@ The following query retrieves the contact information for patients in our databa
 ## Query 2
 
 ### Description:
+The following query will give information about the average difference in days from a medical encounter being issued to when it gets paid by a patient. Basically, on average, how long does it take for customers to pay for their medical encounter. It’s every clinic’s goal to make sure this average difference is as low as possible so by generating this query in certain periods of time, management can track if the average difference has gone up or down, and make necessary improvements or changes (more follow up calls, emails, etc.) in order to maintain a decent average difference to maintain a good clinic setting and reputation.
 
 <img width="1511" height="536" alt="Screenshot 2026-04-02 at 8 27 00 AM" src="https://github.com/user-attachments/assets/d7463d3b-007c-4493-8a69-974b816531ce" />
 
