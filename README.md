@@ -182,7 +182,7 @@ On the billing and insurance side of the model, each medical encounter can gener
 
 ## Query 1
 
-### Description:
+### Description: The following query retrieves the contact information for patients in our database, which is necessary for sending confirmation messages regarding appointments and other details we, as a clinic, would like to send to our patients outside their appointment time. This query is very valuable to a manager because every clinic must maintain a proper record of all of the contact information of their clients, in fact it is a rule because without proper contact information, patients are not given updates about their appointment times or dates which could cause them to miss their appointment and therefore leave them dissatisfied by having to pay a late fee. When a manager runs this query, no null values should be present; if there are, it signals the clinic to enter data in that row or instance immediately to ensure proper communication.
 
 <img width="1511" height="536" alt="Screenshot 2026-04-02 at 8 26 26 AM" src="https://github.com/user-attachments/assets/ccc7eff3-40a9-4f8f-bd5c-dfd34b5bbbd9" />
 
