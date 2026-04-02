@@ -7,11 +7,11 @@ Sp26_71552_Group 1
 ## Team Members
 
 - Grace Buckley 
-- Jerry Chen
+- Jerry Chen @jakalin088
 - Sanjana Karanth
-- Sam Lashley
-- Sai Shankar Sadhu
-- Anaya Stinson
+- Sam Lashley @Sam Lashley
+- Sai Shankar Sadhu @saisadhu25-sketch
+- Anaya Stinson @anayastinson
 
 # Scenario Description
 
