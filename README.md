@@ -216,7 +216,7 @@ The following query retrieves the patient’s name, the status of their encounte
 ## Query 4
 
 ### Description:
-
+Get all insurance Providers that we accept
 
 <img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 28 40 AM" src="https://github.com/user-attachments/assets/fd352bf7-c2cb-484d-9f30-809f6c25a35f" />
 
