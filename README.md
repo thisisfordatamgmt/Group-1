@@ -6,7 +6,7 @@ Sp26_71552_Group 1
 
 ## Team Members
 
-- Grace Buckley (@alice) - https://github.com/alice
+- Grace Buckley [Alice Johnson](https://github.com/alice)
 - Jerry Chen 
 - Sanjana Karanth
 - Sam Lashley 
