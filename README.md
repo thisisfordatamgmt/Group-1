@@ -194,6 +194,7 @@ The following query retrieves the contact information for patients in our databa
 ## Query 2
 
 ### Description:
+DATEDIFF
 
 
 <img width="1511" height="536" alt="Screenshot 2026-04-02 at 8 27 00 AM" src="https://github.com/user-attachments/assets/d7463d3b-007c-4493-8a69-974b816531ce" />
