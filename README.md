@@ -234,7 +234,7 @@ Identify customers who have an amountOutstanding and what amt
 <img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 29 06 AM" src="https://github.com/user-attachments/assets/618632c5-d629-4130-a3ac-cf17dc166ad3" />
 
 ### Justification:
-This query will return back the patient’s name and ID along with their contact information and their outstanding balances This is a highly important query that is very useful in the financial aspect of the clinic because the clinic needs to be aware of its accounts payable account, and make sure they are up to date regarding their financial information. The clinic needs to be able to contact certain patients who have still not paid yet, and the clinic needs to do that ASAP so that the patient and the clinic can be up-to-date on the situation and the clinic would have done its part by informing the patient before they would be subject to any unnecessary additional fees that come with penalties for not paying the amount on time. 
+This query will return back the patient’s name and ID along with their contact information and their outstanding balances. This is a highly important query that is very useful in the financial aspect of the clinic because the clinic needs to be aware of its accounts payable account, and make sure they are up to date regarding their financial information. The clinic needs to be able to contact certain patients who have still not paid yet, and the clinic needs to do that ASAP so that the patient and the clinic can be up-to-date on the situation and the clinic would have done its part by informing the patient before they would be subject to any unnecessary additional fees that come with penalties for not paying the amount on time. 
 
 ## Query 6
 
