@@ -259,10 +259,13 @@ This query will return the percentage of medications prescribed out of all presc
 ## Query 8
 
 ### Description:
+Distinct Patients
 
 <img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 30 18 AM" src="https://github.com/user-attachments/assets/d5b2df4e-d9af-4749-be03-13ebc1013940" />
 
 ### Justification:
+This query will return back the physician name, and the number of different patients they have seen.
+This query is useful when identifying patients’ preference over a specific physician. A physician might have had to deal with many encounters, but they were all between a few patients. This would likely lead management to misinterpret the information shown and conclude that a specific physician deals with multiple patients, when in fact they don’t. The DISTINCT clause makes sure that only unique instances of the patient’s ID are selected, so management can realize how many different customers each physician treats. This information can be found valuable to management when deciding bonuses and promotions for the clinic’s physicians. The physician that is most preferred by many different patients and treats the most people are reasonably going to be given a bonus or promotion. This will help encourage all the physicians to be on their best behavior when handling issues with the patients, and this in turn will help the clinic’s reviews and name.
 
 ## Query 9
 
