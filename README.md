@@ -201,6 +201,7 @@ The following query will give information about the average difference in days f
 ## Query 3
 
 ### Description:
+The following query retrieves the patient’s name, the status of their encounter and the name of the physician that treated them. From a managerial standpoint, the clinic’s manager is in charge of managing the physicians and staff and making sure everything runs smoothly, so the manager should be aware of any encounter that is not yet closed, and they should also know the physician that is assigned that encounter, so they can follow up with the physician and make sure that they are in the process of closing that encounter. This query does a great job by giving the manager a general run down of the physician’s activity and workload regarding their patient’s appointments in the clinic.
 
 <img width="1511" height="570" alt="Screenshot 2026-04-02 at 8 28 06 AM" src="https://github.com/user-attachments/assets/1e007e40-09d7-4c39-bf4a-db82254efab0" />
 
