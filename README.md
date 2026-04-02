@@ -34,7 +34,6 @@ During a medical encounter, a physician may prescribe medications to a patient. 
 
 On the billing and insurance side of the model, each medical encounter can generate a billing record, represented by the one-to-many relationship between Medical_Encounters and Billing. The Billing table tracks the amount outstanding, amount paid, the billing date, and links to an insurance claim. The claimID field in Billing references the Insurance_Claims table, which stores notes about each claim and connects to the Insurance_Providers entity. Insurance_Providers contains the provider's name and any additional notes. This chain of relationships from Medical_Encounters through Billing to Insurance_Claims to Insurance_Providers models the full revenue cycle from the point of care to insurance reimbursement.
 
-
 ---
 <img width="1200" height="850" alt="Group Project Diagram" src="https://github.com/user-attachments/assets/33eaf972-5ffb-483b-a924-b808a5e39403" />
 
