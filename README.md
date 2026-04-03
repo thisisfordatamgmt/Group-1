@@ -15,7 +15,8 @@ Sp26_71552_Group 1
 
 # Scenario Description
 
-The task is to design and build a relational database for a telehealth platform that manages interactions between patients and healthcare providers. The key entities are Patients, Physicians, Appointments, Prescriptions, Insurance Providers, and Medical Encounters.The system should model relationships such as appointment scheduling, medical encounters, prescription issuance, and insurance-based billing. It also enforces business rules like tracking appointment status and supporting multiple physician specialties. We will generate sample data and run queries to gain insights into clinic operations, including appointment outcomes, provider utilization, and reimbursement efficiency.
+The task is to model and build a relational database to represent a telehealth and provider portal. The central entities are patients, physicians, appointments, and medical encounters. These entities work together to represent the core workflow of the healthcare delivery process. The model is also related to other entities like prescriptions, medications, insurance claims, insurance providers, billing, medical history, and physician specialties. These entities' purpose is to capture clinical and administrative processes. 
+  We are interested in precisely modeling each entity's relationship, generating sample data, and using this sample data to populate it in each entity and their attributes. We will show how the database will reflect important business rules, such as physicians having multiple specialties, appointments being categorized by status, and medical encounters not being closed until billing is tied to an insurance claim. Additionally, we will perform function queries on this data so we will get valuable business insight on patient care, provider activity, appointment flow, prescription usage, and insurance reimbursement operations.  
 
 # Data Model
 
